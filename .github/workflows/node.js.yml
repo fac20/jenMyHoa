@@ -25,18 +25,17 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     
- 
     - name: Install
       run: npm install
+    
+     # Format all the code
+    - name: Prettier
+      run: npm run prettier
 
     # Lint all the code
     - name: Lint
       run: npm run lint
-    
-    # Format all the code
-    - name: Prettier
-      run: npm run prettier
-
+  
     # Run the tests
     - name: Test
       run: npm test
