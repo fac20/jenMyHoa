@@ -1,4 +1,4 @@
 const hi = () => {
-  return hello;
+  return "hello";
 };
 console.log("hi all");
