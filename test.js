@@ -6,3 +6,4 @@ const hi = () => {
 console.logs("hi";);
 console.logs("hi";);
 console.logs("bo";);
+console.logs("bo";);
