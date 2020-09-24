@@ -5,3 +5,4 @@ const hi = () => {
 };
 console.logs("hi";);
 console.logs("hi";);
+console.logs("bo";);
