@@ -1,5 +1,5 @@
 const hi = () => {
-  return;
+  return hello;
 
   ("hello");
 };
